@@ -48,6 +48,7 @@ export default function CustomCursor() {
 
     function tick() {
       raf = requestAnimationFrame(tick);
+      if (!el) return;
       x += (tx - x) * 0.14;
       y += (ty - y) * 0.14;
       el.style.transform = `translate(${x}px, ${y}px)`;
