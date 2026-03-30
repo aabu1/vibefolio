@@ -113,6 +113,7 @@ export default function NoiseCanvas() {
 
       offCtx.putImageData(imgData, 0, 0);
 
+      if (!ctx || !canvas) return;
       ctx.imageSmoothingEnabled = true;
       ctx.imageSmoothingQuality = "high";
       ctx.drawImage(offCanvas, 0, 0, canvas.width, canvas.height);
