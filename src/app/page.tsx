@@ -63,7 +63,7 @@ export default function Home() {
           </div>
           <div className="animate-fade-in-up stagger-3">
             <BrowserFrame
-              url="https://finalself-mvp.vercel.app/"
+              url="https://finalself.vercel.app/"
               title="Final Self"
               subtitle="A court submission workflow tool for changing your name in California."
             />
